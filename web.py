@@ -20,7 +20,7 @@ def remove_todo():
             del st.session_state['checkbox_'+todo]
 
 
-st.title('Todos')
+st.title('NPTRavi Todos Webapp')
 if 'todos' not in st.session_state:
     st.session_state['todos'] = functions.get_todos()
 
